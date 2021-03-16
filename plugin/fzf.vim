@@ -1,3 +1,8 @@
+
+
+" https://github.com/junegunn/fzf/blob/master/README-VIM.md
+
+
 " This is the default extra key bindings
 let g:fzf_action = {
   \ 'ctrl-t': 'tab split',
@@ -16,13 +21,6 @@ let g:fzf_action = {
   \ 'ctrl-t': 'tab split',
   \ 'ctrl-x': 'split',
   \ 'ctrl-v': 'vsplit' }
-
-
-
-
-
-
-
 
 " seach files in the project
 map <C-F> :FZF<CR>

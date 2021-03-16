@@ -11,9 +11,6 @@ set title "show the title of file in the window of terminal
 set undofile " persist the history of change of one file then close it
 syntax on " This is required
 
-" move between buffers
-" example :b <<name file/buffer>>
-map <C-B> :b 
 
 " shortcuts for swiching the buffers
 map <C-L> :bnext<CR>
@@ -44,6 +41,7 @@ call plug#begin('~/.vim/plugged')
 
 	" fzf
 	Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
+	Plug 'junegunn/fzf.vim'
 
 	" Plug 'neovim/nvim-lspconfig' " lsp config
 	

@@ -1,6 +1,3 @@
-" ==============================================
-" NOTES ****************************************
-" font: JetBrains Mono
 
 " set ignorecase " ignore capital letter to search
 set autoindent 
@@ -42,7 +39,7 @@ call plug#begin('~/.vim/plugged')
 	" icons
 	Plug 'ryanoasis/vim-devicons'
 
-	Plug 'neovim/nvim-lspconfig' " lsp config
+	" Plug 'neovim/nvim-lspconfig' " lsp config
 	
 	" https://github.com/mattn/vim-lsp-settings
 	Plug 'prabirshrestha/vim-lsp'
@@ -52,18 +49,4 @@ call plug#begin('~/.vim/plugged')
 
 " List ends here. Plugins become visible to Vim after this call.
 call plug#end()
-
-" colorscheme purify "apply theme
-" colorscheme base16-default-dark 
-" config color sonph/onehalf
-set t_Co=256
-set cursorline
-colorscheme onehalfdark
-"let g:airline_theme='onehalfdark'
-" lightline
-" let g:lightline = { 'colorscheme': 'onehalfdark' }
-
-" icons 
-let g:webdevicons_enable_nerdtree = 1
-
 

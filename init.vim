@@ -32,12 +32,18 @@ call plug#begin('~/.vim/plugged')
 	Plug 'preservim/nerdtree' "arbol de archivos
 	Plug 'luochen1990/rainbow' " colorea los corchetes, parentesis, etc...
 
+	" air line
+	Plug 'vim-airline/vim-airline'
+
 	" themes
 	Plug 'kyoz/purify', { 'rtp': 'vim' }
 	Plug 'chriskempson/base16-vim'
 	Plug 'sonph/onehalf', { 'rtp': 'vim' }
 	" icons
 	Plug 'ryanoasis/vim-devicons'
+
+	" fzf
+	Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 
 	" Plug 'neovim/nvim-lspconfig' " lsp config
 	
@@ -49,4 +55,8 @@ call plug#begin('~/.vim/plugged')
 
 " List ends here. Plugins become visible to Vim after this call.
 call plug#end()
+
+" let g:rainbow_active = 1 
+"set to 0 if you want to enable it later via :RainbowToggoe
+
 

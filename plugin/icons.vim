@@ -4,3 +4,5 @@
 
 let g:webdevicons_enable_nerdtree = 1
 
+
+" set guifont=JetBrainsMono:h25

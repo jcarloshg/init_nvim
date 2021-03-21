@@ -1,4 +1,7 @@
 
+" comands
+" :so % -> load all files
+
 " set ignorecase " ignore capital letter to search
 set autoindent 
 " set cursorline " highlight current line

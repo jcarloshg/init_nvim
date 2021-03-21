@@ -1,3 +1,10 @@
+
+" comands workflow in NERDtree
+" CTRL-CC -> open directorio
+" SHIFT-i -> toggle show hide file 
+" SHIFT-a -> enlarge the files panel
+" SHIFT-f -> toggle show file
+
 "nnoremap <leader>n :NERDTreeFocus<CR>
 "nnoremap <C-n> :NERDTree<CR>
 nnoremap <C-n> :NERDTreeToggle<CR>

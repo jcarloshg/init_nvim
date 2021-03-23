@@ -23,7 +23,7 @@ let g:fzf_action = {
   \ 'ctrl-v': 'vsplit' }
 
 " seach files in the project
-map <C-F> :FZF<CR>
+map <C-F> :Files<CR>
 
 " An action can be a reference to a function that processes selected lines
 function! s:build_quickfix_list(lines)
@@ -39,6 +39,8 @@ endfunction
 " let g:fzf_layout = { 'window': '-tabnew' }
 " let g:fzf_layout = { 'window': '10new' }
 
+" Border color
+let g:fzf_layout = {'up':'~90%', 'window': { 'width': 0.8, 'height': 0.8,'yoffset':0.5,'xoffset': 0.5, 'highlight': 'Todo', 'border': 'sharp' } }
 
 let g:fzf_colors =
 \ { 'fg':      ['fg', 'Normal'],

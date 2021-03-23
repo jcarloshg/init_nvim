@@ -1,5 +1,5 @@
 
-colorscheme purify "apply theme
+" colorscheme purify "apply theme
 
 
 " colorscheme base16-default-dark 
@@ -15,3 +15,12 @@ colorscheme purify "apply theme
 " lightline
 " let g:lightline = { 'colorscheme': 'onehalfdark' }
 
+
+colorscheme onedark
+let g:onedark_hide_endofbuffer=0
+let g:onedark_termcolors=256
+
+"airline
+let g:lightline = {
+  \ 'colorscheme': 'onedark',
+  \ }

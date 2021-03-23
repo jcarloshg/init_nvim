@@ -1,4 +1,5 @@
 
+
 " comands
 " :so % -> load all files
 
@@ -14,10 +15,6 @@ set title "show the title of file in the window of terminal
 set undofile " persist the history of change of one file then close it
 syntax on " This is required
 
-
-" shortcuts for swiching the buffers
-map <C-L> :bnext<CR>
-map <C-K> :bprev<CR>
 
 " letter to mapper
 let mapleader=","
@@ -39,9 +36,13 @@ call plug#begin('~/.vim/plugged')
 	Plug 'kyoz/purify', { 'rtp': 'vim' }
 	Plug 'chriskempson/base16-vim'
 	Plug 'sonph/onehalf', { 'rtp': 'vim' }
+	Plug 'joshdick/onedark.vim'
 	" icons
 	Plug 'ryanoasis/vim-devicons'
 
+	" syntax
+	Plug 'sheerun/vim-polyglot'
+	
 	" fzf
 	Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 	Plug 'junegunn/fzf.vim'

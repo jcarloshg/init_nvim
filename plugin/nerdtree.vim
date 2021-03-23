@@ -3,7 +3,7 @@
 " CTRL-CC -> open directorio
 " SHIFT-i -> toggle show hide file 
 " SHIFT-a -> enlarge the files panel
-" SHIFT-f -> toggle show file
+" SHIFT-f -> toggle show files
 
 "nnoremap <leader>n :NERDTreeFocus<CR>
 "nnoremap <C-n> :NERDTree<CR>

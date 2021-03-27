@@ -1,8 +1,12 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhistcnt =6
+let g:netrw_dirhistcnt =3
+let g:netrw_dirhist_3='/home/jose/Documentos'
+let g:netrw_dirhist_2='/home/jose/Documentos/desert_operations'
+let g:netrw_dirhist_1='/home/jose/Documentos/desert_operations/tutoriapp-ionic'
+let g:netrw_dirhist_0='/home/jose/Documentos/desert_operations/tutoriapp-ionic/src'
+let g:netrw_dirhist_9='/home/jose/Documentos/desert_operations/tutoriapp-ionic/src/app'
+let g:netrw_dirhist_8='/home/jose/Documentos/desert_operations/tutoriapp-ionic/src/app/components'
+let g:netrw_dirhist_7='/home/jose/Documentos/desert_operations/tutoriapp-ionic/src/app/components/publication'
 let g:netrw_dirhist_6='/home/jose'
 let g:netrw_dirhist_5='/home/jose/.vim'
 let g:netrw_dirhist_4='/home/jose'
-let g:netrw_dirhist_3='/home/jose/.vim'
-let g:netrw_dirhist_2='/home/jose/.vim/pack'
-let g:netrw_dirhist_1='/home/jose/.vim'

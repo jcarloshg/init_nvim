@@ -3,6 +3,9 @@
 " https://github.com/junegunn/fzf/blob/master/README-VIM.md
 
 
+
+
+
 " This is the default extra key bindings
 let g:fzf_action = {
   \ 'ctrl-t': 'tab split',
@@ -24,6 +27,8 @@ let g:fzf_action = {
 
 " seach files in the project
 map <C-F> :Files<CR>
+" seach lines in the file
+nmap <Leader>s :BLines<CR>
 
 " An action can be a reference to a function that processes selected lines
 function! s:build_quickfix_list(lines)

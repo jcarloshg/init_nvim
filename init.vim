@@ -15,7 +15,6 @@ set title "show the title of file in the window of terminal
 set undofile " persist the history of change of one file then close it
 syntax on " This is required
 
-
 " letter to mapper
 let mapleader=","
 

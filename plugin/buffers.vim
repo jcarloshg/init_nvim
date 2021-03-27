@@ -1,7 +1,7 @@
 
 " shortcuts for swiching the buffers
-map <C-L> :bnext<CR>
-map <C-K> :bprev<CR>
+map <Leader><tab> :bnext<CR>
+map <Leader><S-tab> :bprev<CR>
 
 " open split buffers
 map <Leader>v <C-W>v
@@ -11,7 +11,7 @@ map <Leader>s <C-W>s
 map <Leader>d :bd!<CR>
 
 " show buffers
-map <Leader>b :Buffers<CR>
+map <C-Space> :Buffers<CR>
 
 " move into buffers
 map <C-h> <C-W>h

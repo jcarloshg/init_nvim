@@ -16,11 +16,13 @@
 " let g:lightline = { 'colorscheme': 'onehalfdark' }
 
 
-colorscheme onedark
-let g:onedark_hide_endofbuffer=0
-let g:onedark_termcolors=256
+" colorscheme onedark
+" let g:onedark_hide_endofbuffer=0
+" let g:onedark_termcolors=256
 
 "airline
-let g:lightline = {
-  \ 'colorscheme': 'onedark',
-  \ }
+"let g:lightline = {
+"  \ 'colorscheme': 'onedark',
+"  \ }
+
+colorscheme darkblue

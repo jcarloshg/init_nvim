@@ -41,7 +41,10 @@ call plug#begin('~/.vim/plugged')
 
 	" syntax
 	Plug 'sheerun/vim-polyglot'
-	
+
+	" multi cursor
+	Plug 'mg979/vim-visual-multi', {'branch': 'master'}
+
 	" fzf
 	Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 	Plug 'junegunn/fzf.vim'

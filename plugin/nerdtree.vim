@@ -7,7 +7,7 @@
 
 "nnoremap <leader>n :NERDTreeFocus<CR>
 "nnoremap <C-n> :NERDTree<CR>
-nnoremap <C-n> :NERDTreeToggle<CR>
+nnoremap <C-b> :NERDTreeToggle<CR>
 " nnoremap <C-f> :NERDTreeFind<CR>
 
 " Start NERDTree when Vim is started without file arguments.

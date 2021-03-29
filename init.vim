@@ -45,6 +45,9 @@ call plug#begin('~/.vim/plugged')
 	" multi cursor
 	Plug 'mg979/vim-visual-multi', {'branch': 'master'}
 
+	" auto pair
+	Plug 'jiangmiao/auto-pairs'
+
 	" fzf
 	Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 	Plug 'junegunn/fzf.vim'

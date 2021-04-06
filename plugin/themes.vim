@@ -1,5 +1,5 @@
 
-" colorscheme purify "apply theme
+colorscheme purify "apply theme
 
 
 " colorscheme base16-default-dark 
@@ -25,4 +25,4 @@
 "  \ 'colorscheme': 'onedark',
 "  \ }
 
-colorscheme darkblue
+" colorscheme darkblue

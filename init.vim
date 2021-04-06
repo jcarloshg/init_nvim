@@ -1,5 +1,3 @@
-
-
 " comands
 " :so % -> load all files
 
@@ -16,7 +14,7 @@ set undofile " persist the history of change of one file then close it
 syntax on " This is required
 
 " letter to mapper
-let mapleader=","
+let mapleader=" "
 
 " Plugins will be downloaded under the specified directory.
 call plug#begin('~/.vim/plugged')
@@ -52,8 +50,10 @@ call plug#begin('~/.vim/plugged')
 	Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 	Plug 'junegunn/fzf.vim'
 
-	" Plug 'neovim/nvim-lspconfig' " lsp config
-	
+	" COC
+"	Plug 'neoclide/coc.nvim', {'branch': 'release'}
+
+		
 	" https://github.com/mattn/vim-lsp-settings
 	Plug 'prabirshrestha/vim-lsp'
 	Plug 'mattn/vim-lsp-settings'

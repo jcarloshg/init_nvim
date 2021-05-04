@@ -6,14 +6,18 @@ set autoindent
 " set cursorline " highlight current line
 set encoding=utf-8
 set hidden " can change between buffer without save it
-set mouse=a "On activite mouse
+set mouse=r "On activite mouse
+" set mouse=a
 set number " show colum of numbers
 set smartcase "not ignore capital letter to search
 set title "show the title of file in the window of terminal
 set undofile " persist the history of change of one file then close it
 syntax on " This is required
 
-" letter to mapper
+set linebreak
+set showbreak=----------
+
+"letter to mapper
 let mapleader=" "
 
 " Plugins will be downloaded under the specified directory.

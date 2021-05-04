@@ -38,14 +38,14 @@ function! s:build_quickfix_list(lines)
 endfunction
 
 " aparence window
-" let g:fzf_layout = { 'down': '40%' }
+" let g:fzf_layout = { 'down': '20%' }
 " let g:fzf_layout = { 'window': { 'width': 0.9, 'height': 0.6 } }
 " let g:fzf_layout = { 'window': 'enew' }
 " let g:fzf_layout = { 'window': '-tabnew' }
 " let g:fzf_layout = { 'window': '10new' }
 
 " Border color
-let g:fzf_layout = {'up':'~90%', 'window': { 'width': 0.8, 'height': 0.8,'yoffset':0.5,'xoffset': 0.5, 'highlight': 'Todo', 'border': 'sharp' } }
+let g:fzf_layout = {'up':'40%', 'window': { 'width': 0.8, 'height': 0.8,'yoffset':0.5,'xoffset': 0.5, 'highlight': 'Todo', 'border': 'sharp' } }
 
 let g:fzf_colors =
 \ { 'fg':      ['fg', 'Normal'],

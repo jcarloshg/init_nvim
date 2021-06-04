@@ -55,7 +55,7 @@ call plug#begin('~/.vim/plugged')
 	Plug 'junegunn/fzf.vim'
 
 	" COC
-"	Plug 'neoclide/coc.nvim', {'branch': 'release'}
+	Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
 		
 	" https://github.com/mattn/vim-lsp-settings

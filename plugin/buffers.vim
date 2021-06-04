@@ -11,7 +11,7 @@ map <Leader>s <C-W>s
 map <Leader>d :bd!<CR>
 
 " show buffers
-map <C-Space> :Buffers<CR>
+map <b><b> :Buffers<CR>
 
 " move into buffers
 " map <C-h> <C-W>h
